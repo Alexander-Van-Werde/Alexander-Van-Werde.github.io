@@ -23,7 +23,7 @@ It is apparent that some new ideas were involved, but their exact nature and the
 Moreover, the writing of the proofs was composed by the LLM and makes the exposition fairly intransparent.
 The goal of this working group is to understanding the new ideas and to produce a writeup with high-quality human exposition.     
 
-**Current members of the working group:**
+**Current members of the work group:**
 - [Nikita Lvov](https://nikitalvov.info/) 
 - [Alexander Van Werde](https://alexandervanwerde.be/)
 - [Ziqing Xiang](https://ziqing.org/)
