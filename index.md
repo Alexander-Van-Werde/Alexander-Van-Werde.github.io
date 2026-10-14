@@ -29,7 +29,7 @@ The goal of this working group is to understanding the new ideas and to produce 
 - [Ziqing Xiang](https://ziqing.org/)
 
 Please feel free to [contact](mailto:a.van.werde@uni-muenster.de) us. 
-Additional expertise on large prime problems in combinatorial random matrix theory would be welcome. 
+Additional expertise on large prime problems in combinatorial random matrix theory would be particularly welcome. 
 
  
 
