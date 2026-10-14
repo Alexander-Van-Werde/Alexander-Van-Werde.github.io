@@ -19,9 +19,9 @@ Most notably, the arguments appear to build on arithmetic sufficient conditions 
 Results by O'Rourke and Touri ([arXiv:1511.05080](https://arxiv.org/abs/1511.05080)) concerning the controllability of random graphs also play an important role. 
 
 However, while a lean verification of the result is forthcoming, the arguments have not yet been digested by humans.
-It is apparent that some new ideas were involved, but their exact nature and their relation to previous literature is not entirely clear.
+It is clear that some new ideas are involved, but their exact nature and relation to previous literature is not entirely clear.
 Moreover, the writing of the proofs was composed by the LLM and makes the exposition fairly intransparent.
-The goal of this working group is to understanding the new ideas and to produce a writeup with high-quality human exposition.     
+The goal of this work group is to understand the new ideas and to produce a writeup with high-quality human exposition.     
 
 **Current members of the work group:**
 - [Nikita Lvov](https://nikitalvov.info/) 
@@ -29,7 +29,7 @@ The goal of this working group is to understanding the new ideas and to produce 
 - [Ziqing Xiang](https://ziqing.org/)
 
 Please feel free to [contact](mailto:a.van.werde@uni-muenster.de) us. 
-Additional expertise on large prime problems in combinatorial random matrix theory would be particularly welcome. 
+Additional members with expertise on large prime problems in combinatorial random matrix theory would be particularly welcome. 
 
  
 
