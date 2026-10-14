@@ -5,7 +5,7 @@ title: "Work group - Almost all graphs are determined by their generalized spect
 Spectral graph theory is the beautiful discipline studying networks using the eigenvalues of associated matrices. 
 One may wonder how far one can take this perspective. 
 Is a graph characterized completely by spectral information?
-There exist graphs that are characterized by their spectrum, but there also exist examples of non-isomorphic graphs that have the same spectrum, known as _cospectral mates_. 
+There exist graphs that are characterized by their spectrum, but there also exist examples of non-isomorphic graphs that have the same spectrum. 
 One of the big mysteries in this area is to understand which of these cases is typical.
 
 
