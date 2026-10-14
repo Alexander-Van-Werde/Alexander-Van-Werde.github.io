@@ -1,0 +1,5 @@
+title: Almost all graphs are determined by their generalized 
+theme: minimal-mistakes-jekyll
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
