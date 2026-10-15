@@ -8,7 +8,7 @@ Is a graph characterized completely by spectral information?
 There exist examples of non-isomorphic graphs that have the same spectrum, but there also are graphs that are determined by their spectrum. 
 One of the big mysteries in this area is to understand which of these cases is typical.
 
-![Two non-isomorphic graphs with the same adjacency spectrum. These graphs also have the same generalized spectrum in the sense defined below.](/assets/images/Cospectral.png){: width="50%" .align-center}
+![Two non-isomorphic graphs with the same adjacency spectrum. These graphs also have the same generalized spectrum in the sense defined below.](/assets/images/Cospectral.png){: style="width: 100%; max-width: 500px;" .align-center}
 
 **A recent breakthrough:**
 A recent preprint ([arXiv:2610.11047](https://arxiv.org/abs/2610.11047)) asserts that it is typical for a random graph to be uniquely determined by its _generalized spectrum_!
