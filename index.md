@@ -15,7 +15,7 @@ One of the big mysteries in the area is to understand which of these cases is ``
 A recent preprint ([arXiv:2610.11047](https://arxiv.org/abs/2610.11047)) asserts that it is typical for a random graph to be determined by its _generalized spectrum_!
 Here, the generalized spectrum is the pair consisting of its adjacency spectrum of the graph and the adjacency spectrum of its complement graph. 
 This would resolve a significant open problem in the field. 
-Further, it would give evidence for a stronger conjecture by Haemers and Van Dam ([2023](https://doi.org/10.1016/S0024-3795(03)00483-X)) which posits that almost all graphs are determined given only their adjacency spectrum.  
+Further, it would give evidence for a stronger conjecture by Haemers and Van Dam ([2023](https://doi.org/10.1016/S0024-3795(03)00483-X)) which posits that only the adjacency spectrum should suffice.  
 
 The preprint was generated almost entirely autonomously by a Large Language Model (LLM), building on previous work of various authors. 
 For example, the arguments notably build on arithmetic sufficient conditions by Wang ([arXiv:1410.2164](https://arxiv.org/abs/1410.2164)), the idea that probabilistic theory benefits from rephrasing such conditions in terms of abstract-algebraic objects due to Lvov and Van Werde ([arXiv:2401.12655](https://arxiv.org/abs/2401.12655), [2603.26932](https://arxiv.org/abs/2603.26932)), and methods to study abstract-algebraic objects associated to random matrices due to Nguyen and Wood ([arXiv:2210.08526](https://arxiv.org/abs/2210.08526)).
@@ -32,7 +32,9 @@ The goal of this work group is to understand the new ideas and to produce a writ
 - [Ziqing Xiang](https://ziqing.org/)
 
 Please feel free to [contact](mailto:a.van.werde@uni-muenster.de) us. 
-Additional members with expertise on large prime problems in combinatorial random matrix theory would be particularly welcome. 
+
+
+Additional members with expertise on large prime problems in combinatorial random matrix theory would be welcome. 
 
  
 
