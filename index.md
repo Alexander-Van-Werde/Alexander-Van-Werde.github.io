@@ -2,17 +2,18 @@
 layout: home
 title: "Work group - Almost all graphs are determined by their generalized spectrum"
 ---
-Spectral graph theory is the beautiful discipline studying networks using the eigenvalues of associated matrices. 
-One may wonder how far one can take this perspective. 
+Spectral graph theory is the beautiful discipline studying network properties using the eigenvalues of associated matrices. 
+One may wonder how far one can take this. 
 Is a graph characterized completely by spectral information?
-There exist graphs that are characterized by their spectrum, but there also exist examples of non-isomorphic graphs that have the same spectrum. 
+There exist examples of non-isomorphic graphs that have the same spectrum, but there also are graphs that are determined by their spectrum. 
 One of the big mysteries in this area is to understand which of these cases is typical.
 
+![An example of two non-isomorphic graphs with the same adjacency spectrum. These graphs also have the same generalized spectrum in the sense defined below.](/assets/images/Cospectral.png)
 
+**A recent breakthrough:**
 A recent preprint ([arXiv:2610.11047](https://arxiv.org/abs/2610.11047)) asserts that it is typical for a random graph to be uniquely determined by its _generalized spectrum_!
-This would resolve a significant open problem in the field. 
 Here, the generalized spectrum is the pair consisting of its adjacency spectrum of the graph and the adjacency spectrum of its complement graph. 
-
+This would resolve a significant open problem in the field.  
 
 The preprint was generated almost entirely autonomously by a Large Language Model (LLM), building on previous work of various authors. 
 Most notably, the arguments appear to build on arithmetic sufficient conditions by Wang ([arXiv:1410.2164](https://arxiv.org/abs/1410.2164)), the idea that probabilistic theory benefits from rephrasing such conditions in terms of abstract-algebraic objects due to Lvov and Van Werde ([arXiv:2401.12655](https://arxiv.org/abs/2401.12655), [2603.26932](https://arxiv.org/abs/2603.26932)), and methods to study abstract-algebraic objects associated to random matrices due to Nguyen and Wood ([arXiv:2210.08526](https://arxiv.org/abs/2210.08526)).
