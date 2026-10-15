@@ -11,7 +11,7 @@ One of the big mysteries in the area is to understand which of these cases is ty
 ![Two non-isomorphic graphs with the same adjacency spectrum. These graphs also have the same generalized spectrum in the sense defined below.](/assets/images/Cospectral.png){: style="width: 100%; max-width: 500px;" .align-center}
 
 
-**A recent breakthrough:**
+**A recent development:**
 A recent preprint ([arXiv:2610.11047](https://arxiv.org/abs/2610.11047)) asserts that it is typical for a random graph to be determined by its _generalized spectrum_!
 Here, the generalized spectrum is the pair consisting of its adjacency spectrum of the graph and the adjacency spectrum of its complement graph. 
 This would resolve a significant open problem in the field. 
@@ -29,15 +29,11 @@ Moreover, the writing of the proofs was composed by the LLM and makes the exposi
 The goal of this work group is to understand the new ideas and to produce a writeup with high-quality human exposition.     
 
 **Current members of the work group:**
-- [Nikita Lvov](https://nikitalvov.info/) 
-- [Alexander Van Werde](https://alexandervanwerde.be/)
-- [Ziqing Xiang](https://ziqing.org/)
+- [Nikita Lvov](https://nikitalvov.info/) (McGill University, Canada) 
+- [Alexander Van Werde](https://alexandervanwerde.be/) (University of Münster, Germany)
+- [Ziqing Xiang](https://ziqing.org/) (SUSTech, China)
 
 Please feel free to [contact](mailto:a.van.werde@uni-muenster.de) us. 
 
 
 Additional members with expertise on large prime problems in combinatorial random matrix theory would be welcome. 
-
- 
-
-
