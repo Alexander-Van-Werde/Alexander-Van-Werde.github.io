@@ -18,8 +18,8 @@ This would resolve a significant open problem in the field.
 Further, it would give evidence for a stronger conjecture by Haemers and Van Dam ([2023](https://doi.org/10.1016/S0024-3795(03)00483-X)) which posits that only the adjacency spectrum should suffice.  
 
 The preprint was generated almost entirely autonomously by a Large Language Model (LLM), building on previous work of various authors. 
-For example, the arguments notably build on arithmetic sufficient conditions by Wang ([arXiv:1410.2164](https://arxiv.org/abs/1410.2164)), the idea that probabilistic theory benefits from rephrasing such conditions in terms of abstract-algebraic objects due to Lvov and Van Werde ([arXiv:2401.12655](https://arxiv.org/abs/2401.12655), [2603.26932](https://arxiv.org/abs/2603.26932)), and methods to study abstract-algebraic objects associated to random matrices due to Nguyen and Wood ([arXiv:2210.08526](https://arxiv.org/abs/2210.08526)).
-Results by O'Rourke and Touri ([arXiv:1511.05080](https://arxiv.org/abs/1511.05080)) concerning the controllability of random graphs also play an important role. 
+For example, the arguments notably build on arithmetic sufficient conditions by Wang ([2014](https://arxiv.org/abs/1410.2164)), the idea that probabilistic theory benefits from rephrasing such conditions in terms of abstract-algebraic objects due to Lvov and Van Werde ([2024](https://arxiv.org/abs/2401.12655), [2026](https://arxiv.org/abs/2603.26932)), and methods to study abstract-algebraic objects associated to random matrices due to Nguyen and Wood ([2022](https://arxiv.org/abs/2210.08526)).
+Results by O'Rourke and Touri ([2015](https://arxiv.org/abs/1511.05080)) concerning the controllability of random graphs also play an important role. 
 
 However, while a lean verification of the result is forthcoming, the arguments have not yet been digested by humans.
 It is clear that some new ideas are involved, but their exact nature and relation to previous literature is not entirely clear.
