@@ -6,7 +6,7 @@ Spectral graph theory is the beautiful discipline studying network properties us
 One may wonder how far one can take this. 
 Is a graph characterized completely by spectral information?
 There exist examples of non-isomorphic graphs that have the same spectrum, but there also are graphs that are determined by their spectrum. 
-One of the big mysteries in the area is to understand which of these cases is ``typical''.
+One of the big mysteries in the area is to understand which of these cases is typical.
 
 ![Two non-isomorphic graphs with the same adjacency spectrum. These graphs also have the same generalized spectrum in the sense defined below.](/assets/images/Cospectral.png){: style="width: 100%; max-width: 500px;" .align-center}
 
