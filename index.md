@@ -13,7 +13,7 @@ One of the big mysteries in the area is to understand which of these cases is ty
 
 **A recent development:**
 A recent preprint ([arXiv:2610.11047](https://arxiv.org/abs/2610.11047)) asserts that it is typical for a random graph to be determined by its _generalized spectrum_!
-Here, the generalized spectrum is the pair consisting of its adjacency spectrum of the graph and the adjacency spectrum of its complement graph. 
+The generalized spectrum is the pair consisting of its adjacency spectrum of the graph and the adjacency spectrum of its complement graph. 
 This would resolve a significant open problem in the field. 
 Further, it would give evidence for a stronger conjecture by Van Dam and Haemers ([2003](https://doi.org/10.1016/S0024-3795(03)00483-X)) which posits that only the adjacency spectrum should suffice.  
 
