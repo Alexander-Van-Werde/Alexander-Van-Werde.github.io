@@ -10,7 +10,7 @@ author: alexander
 
 I'll start the working group blog with a series of three posts that discuss my initial impressions related to the LLM-generated preprint [''Almost all graphs are determined by their generalized spectrum''](https://arxiv.org/abs/2610.11047). 
 
-The [first post](https://almost-all-dgs.net/2026/10/20/InitialImpressionsPersonal.html) is an essay on my personal experiences. I had been vaguely interested in this problem since 2022, and actively working on techniques related to those that were used in the preprint in 2024. I want to discuss the human story from my personal perspective.  
+The [first post](https://almost-all-dgs.net/2026/10/20/InitialImpressionsPersonal.html) is an essay on my personal experiences. I had been vaguely interested in this problem since 2022, and actively working on techniques related to those used in the preprint since 2024. I want to discuss this human story.  
 
 Before we can appreciate what ideas are new in the preprint, we need to understand the context of previous work. This is the goal of the [second post](https://almost-all-dgs.net/2026/10/20/InitialImpressionsLiterature.html). I will also use this opportunity to tell a cohesive story with a few outlines of key proofs ideas in the literature. This may be of independent interest, as a similar review of the subject is not previously available. 
 
