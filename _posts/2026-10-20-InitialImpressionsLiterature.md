@@ -122,8 +122,8 @@ $$i_0 := \#\{i\leq k: \lambda_i = m \}\ \textnormal{ and }\ \delta_j := \lambda_
 
 It seems natural that the combination of Lemma 8 and Theorem 9 should yield the probability that $\det(W_M)$ is square-free for a random matrix $M$ whose entries are uniform on $[-m,m]\cap \mathbb{Z}$ as $m\to \infty$.   However, some care is required. There will always be some primes $p$ with $p^2 \gg m$. The entries of $M$ are then far from uniform modulo $p^2$, so Theorem 9 can not be directly used.  This motivates the following: 
 
-**Definition 11.** A collection of $\mathbb{Z}$-valued random variables $\{D_i : i\in \cI \}$ satisfies a _large primes estimate for square-freeness_ if for every $\varepsilon>0$ there exists $C>0$ with
-$$\max_{i\in \cI} \mathbb{P}\bigl(\exists p>C: p^2 \mid D_i \bigr) \leq \varepsilon,$$where $p$ runs over prime numbers.
+**Definition 11.** A collection of $\mathbb{Z}$-valued random variables $\{D_i : i\in \mathcal{I} \}$ satisfies a _large primes estimate for square-freeness_ if for every $\varepsilon>0$ there exists $C>0$ with
+$$\max_{i\in \mathcal{I}} \mathbb{P}\bigl(\exists p>C: p^2 \mid D_i \bigr) \leq \varepsilon,$$where $p$ runs over prime numbers.
 
 **Corollary 12. (Square-freeness conditional on large primes)** _For every $m,n \geq 1$, let $X = X(n,m)$ be a random $n\times n$ matrix with independent entries uniform from $[-m,m]\cap \mathbb{Z}$._ 
 
@@ -146,7 +146,7 @@ This module structure is useful when extending results to different models. The 
 
 The following terminology is not standard, but it is clarifying for our purposes:
 
-**Definition 13.** Fix a prime $p$. For every $d\geq 1$, denote $$\mathcal{B}(p,d):=\{\beta \in \mathbb{F}_p[x] : \beta \textnormal{ is irreducible and }\det(\beta)\geq d \}.$$Then, a collection of random $\mathbb{Z}[x]$-modules $\{{M_i : i\in \cI} \}$ is said to satisfy a _large polynomials estimate at $p$_ if for every $\varepsilon>0$ there exists $d\geq 1$ such that 
+**Definition 13.** Fix a prime $p$. For every $d\geq 1$, denote $$\mathcal{B}(p,d):=\{\beta \in \mathbb{F}_p[x] : \beta \textnormal{ is irreducible and }\det(\beta)\geq d \}.$$Then, a collection of random $\mathbb{Z}[x]$-modules $\{{M_i : i\in \mathcal{I}} \}$ is said to satisfy a _large polynomials estimate at $p$_ if for every $\varepsilon>0$ there exists $d\geq 1$ such that 
 $$\max_{i\in \mathcal{I}}\mathbb{P}\Bigl(\exists \beta \in \mathcal{B}(p,d): M_i\otimes\frac{ \mathbb{F}_p[x]}{\beta\mathbb{F}_p[x]} \neq 0 \Bigr)  < \varepsilon.$$
 
 With this notation, we can give a conditional universality result. (Rather, we can give an unconditional result whose statement simplifies conditional on large polynomial estimates.) One more definition is useful to clarify that the entries' law does not matter subject to reasonable constraints, but one can think of nondegenerate $\{0,1 \}$-valued entries as the main example of interest. 
