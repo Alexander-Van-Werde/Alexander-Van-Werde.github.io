@@ -34,7 +34,7 @@ This notion dates back to Johnson and Newman ([1980](https://doi.org/10.1016/009
 
 Johnson and Newman also proved different equivalent formulations. One of these is relevant for our story. Let $e= (1,\ldots,1)^T$ be the all-ones vector, with the dimension matching the number of vertices $n$ in $G$.
 
-**Theorem 2. (Johnson and Newman, 1980)** _Two graphs_ $G$ and $H$ _have the same generalized spectrum if and only if there exists an orthogonal matrix_ $Q\in \mathbb{R}^{n\times n}$ _satisfying_  $Q e = e$ _that relates their adjacency matrices by conjugacy_ $Q A_G Q^T = A_H$._ 
+**Theorem 2. (Johnson and Newman, 1980)** _Two graphs_ $G$ and $H$ _have the same generalized spectrum if and only if there exists an orthogonal matrix_ $Q\in \mathbb{R}^{n\times n}$ _satisfying_  $Q e = e$ _that relates their adjacency matrices by conjugacy_ $Q A_G Q^T = A_H$. 
 
 It is not difficult to check that the existence of such an orthogonal matrix implies generalized cospectrality.  The opposite direction requires an argument, omitted here for brevity. 
 
