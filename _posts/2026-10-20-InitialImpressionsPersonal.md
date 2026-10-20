@@ -6,7 +6,7 @@ tags:
   - Initial-Impressions
 author: alexander
 ---
-
+**Author:** {{ site.data.authors[page.author].name }}
 I first heard about the question whether spectral information determines almost all graphs in a talk by Aida Abiad in 2022. She mentioned this as one of the notable open problems in spectral graph theory. The problem indeed has a rich history in the Netherlands, where I was a PhD student at the time, with notable contributions coming from Dutch mathematicians like Brouwer, Seidel, Van Dam, Haemers, and ofcourse Aida Abiad herself.  
 
 I was working in random matrix theory, and it seemed to me that my subject could potentially give a fresh perspective. The problem had previously mainly been investigated by people in combinatorics. Thankfully, my supervisor, Jaron Sanders gave me the freedom to explore some of these connections independently. I continue to be thankful to him for this freedom, as it has turned out to be a deeply rewarding problem.  
