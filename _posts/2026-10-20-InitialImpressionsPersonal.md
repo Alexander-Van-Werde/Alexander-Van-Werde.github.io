@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Initial impressions - Personal experiences"
+title: "Initial impressions - Personal experiences (Alexander Van Werde)"
 date: 2026-10-20 11:42:00 +0200
 tags:
   - Initial-Impressions
