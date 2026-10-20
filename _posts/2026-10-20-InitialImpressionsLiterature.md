@@ -50,7 +50,7 @@ $$W = \bigl[e, Ae, A^2 e, A^3 e, \ldots, A^{n-1}e\bigr] $$
 
 Recall that an integer $D\in \mathbb{Z}$ is said to be _square-free_ if it is not divisible by any non-trivial square. That is, $p^2\nmid D$ for all primes $p$. The following sufficient condition is a modification of the one by Wang. A simplified self-contained proof can be found in ([arXiv:2511.19625](https://arxiv.org/abs/2511.19625)).  
 
-**Theorem 4.** _Consider an undirected graph $G$, possibly with loops.  Assume that $\det(W)$ is square-free. Then, $G$ is determined by its generalized spectrum._
+**Theorem 4.** _Consider an undirected graph_ $G$, _possibly with loops.  Assume that_ $\det(W)$ _is square-free. Then,_ $G$ _is determined by its generalized spectrum._
 
 While Theorem 4 also allows simple graphs, it is vacuous then. It can be shown that $2^{\lfloor n/2 \rfloor}$ always divides the determinant of the walk matrix for a simple graph. The results by Wang ([2014](https://arxiv.org/abs/1410.2164)) also account for the special behavior of the prime $2$ in simple graphs. However, the setting of graphs with loops will be slightly simpler for the features that I want to discuss in this blog post. (We will likely return to the prime $2$ and simple graphs in future posts.) 
 
@@ -64,7 +64,7 @@ The proof of Theorem 4 starts from the insight by Johnson and Newman that genera
 
 Suppose that we are given two generalized cospectral graphs $G$ and $H$ and let $Q\in \mathbb{R}^{n\times n}$ be an orthogonal matrix satisfying $Qe = e$ and $Q A_G Q^T = A_H$. Under mild conditions, we can prove that this matrix in-fact even has rational entries:
 
-**Lemma 6.** _Assume that $\det(W_G) \neq 0$. Then, $Q\in \mathbb{Q}^{n\times n}$._
+**Lemma 6.** _Assume that_ $\det(W_G) \neq 0$. _Then,_ $Q\in \mathbb{Q}^{n\times n}$.
 
 **Proof.** By using that $Qe = e$ and repeatedly using that $QA_G = A_HQ$ we have that 
 $$Q W_G = W_H.$$
@@ -99,7 +99,7 @@ The special case $R=\mathbb{Z}$ will suffice for the initial discussion. Then, $
 
 Studying cokernels over $\mathbb{Z}$ is equivalent to studying the Smith normal form. Indeed, if $M=UDV$ for $U,V\in \operatorname{GL}_n(\mathbb{Z})$ and $D = \operatorname{diag}(d_1,\ldots,d_n)$ then $$\operatorname{coker}(M) = \oplus_{i=1}^n \mathbb{Z}/d_i \mathbb{Z}.$$In particular, recalling that the Smith normal form recovers the determinant up to sign, the cokernel can be used to study the square-freeness of determinants. 
 
-**Lemma 8.** _It holds that $p^2 \nmid\det(M)$ if and only if_ $\operatorname{coker}(M)\otimes_{\mathbb{Z}} (\mathbb{Z}/p^2 \mathbb{Z})  \in \{0, \mathbb{Z}/p\mathbb{Z}  \}$. 
+**Lemma 8.** _It holds that_ $p^2 \nmid\det(M)$ _if and only if_ $\operatorname{coker}(M)\otimes_{\mathbb{Z}} (\mathbb{Z}/p^2 \mathbb{Z})  \in \{0, \mathbb{Z}/p\mathbb{Z}  \}$. 
 
 At first sight, it may appear that this algebraic rephrasing makes the question more difficult, but it turns out that there are techniques that help in studying random abstract-algebraic objects associated to random matrices.[^1] To my knowledge, the first time that this connection was proposed as an approach to cospectrality problems was in my own work ([2024](https://arxiv.org/abs/2401.12655)). The ideas involved are discussed in the following sections.
 
@@ -113,7 +113,7 @@ The digraph setting serves as a toy case. It is simpler for probabilistic purpos
 
 If we take the entries of $M$ to be fairly uniform on $\mathbb{Z}$ then one can study the columns of $W_M$ as a stochastic process. More or less, the next column is always found from the previous one by the uniform random action of $M$. (There are some dependencies in the process that must be accounted for, but these can be understood.) This approach can be used to prove the following: 
 
-**Theorem 9. (V.W., [2024](https://arxiv.org/abs/2401.12655))**  _Fix a prime $p$ and an integer $m\geq 1$. Let $M$ be a $\mathbb{Z}^{n\times n}$-valued random matrix whose entries are independent have the property that the reduction $\bmod p^2$ is uniform on $\{0,1,\ldots,p^{m}-1 \}$._
+**Theorem 9. (V.W., [2024](https://arxiv.org/abs/2401.12655))**  _Fix a prime_ $p$ _and an integer_ $m\geq 1$. _Let_ $M$ _be a_ $\mathbb{Z}^{n\times n}$-_valued random matrix whose entries are independent have the property that the reduction_ $\bmod p^2$ _is uniform on_ $\{0,1,\ldots,p^{m}-1 \}$.
 
 _Then, it holds for every $k \geq 1$ and $0 = \lambda_0 \leq \lambda_1 \leq \cdots \leq \lambda_k$ that, as Abelian groups,_ 
 $$\lim_{n\to \infty}\mathbb{P}\biggl(\operatorname{coker}(W_M) \otimes_{\mathbb{Z}}\frac{\mathbb{Z}}{p^{m}\mathbb{Z}} \cong  \bigoplus_{i=1}^k \frac{\mathbb{Z}}{p^{\lambda_i} \mathbb{Z}}  \biggr)  = \prod_{i=i_0}^\infty \bigl(1 - p^{-(i+1)}\bigr) \prod_{j=1}^k p^{-j \delta_j}$$
