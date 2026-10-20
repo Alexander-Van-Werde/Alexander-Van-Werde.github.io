@@ -146,7 +146,7 @@ This module structure is useful when extending results to different models. The 
 
 The following terminology is not standard, but it is clarifying for our purposes:
 
-**Definition 13.** Fix a prime $p$. For every $d\geq 1$, denote $$\mathcal{B}(p,d):=\{\beta \in \mathbb{F}_p[x] : \beta \textnormal{ is irreducible and }\det(\beta)\geq d \}.$$Then, a collection of random $\mathbb{Z}[x]$-modules $\{{M_i : i\in \mathcal{I}} \}$ is said to satisfy a _large polynomials estimate at $p$_ if for every $\varepsilon>0$ there exists $d\geq 1$ such that 
+**Definition 13.** Fix a prime $p$. For every $d\geq 1$, denote $$\mathcal{B}(p,d):=\{\beta \in \mathbb{F}_p[x] : \beta \textnormal{ is irreducible and }\det(\beta)\geq d \}.$$Then, a collection of random $\mathbb{Z}[x]$-modules $\{M_i : i\in \mathcal{I} \}$ is said to satisfy a _large polynomials estimate at $p$_ if for every $\varepsilon>0$ there exists $d\geq 1$ such that 
 $$\max_{i\in \mathcal{I}}\mathbb{P}\Bigl(\exists \beta \in \mathcal{B}(p,d): M_i\otimes\frac{ \mathbb{F}_p[x]}{\beta\mathbb{F}_p[x]} \neq 0 \Bigr)  < \varepsilon.$$
 
 With this notation, we can give a conditional universality result. (Rather, we can give an unconditional result whose statement simplifies conditional on large polynomial estimates.) One more definition is useful to clarify that the entries' law does not matter subject to reasonable constraints, but one can think of nondegenerate $\{0,1 \}$-valued entries as the main example of interest. 
