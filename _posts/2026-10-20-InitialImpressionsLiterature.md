@@ -28,13 +28,13 @@ The term _graph_ is reserved in this post are to finite and undirected graphs. D
 
 We do _not_ assume that the graphs are simple. Self loops and multiple edges are permissible. Let me warn that many of the references that I'll mention are stated for simple graphs. The key points for my story however extend to the general setting, and the flexibility of allowing loops will be useful in some places. 
 
-**Definition 1.**  Two graphs 𝐺 and 𝐻 are _generalized cospectral_ if their adjacency matrices have the same characteristic polynomial, and their complement graphs also have the same characteristic polynomial. We say that $G$ is _determined by its generalized spectrum (DGS)_ if all generalized cospectral graphs $H$ are in-fact isomorphic to $G$. 
+**Definition 1.**  Two graphs $G$ and $H$ are _generalized cospectral_ if their adjacency matrices have the same characteristic polynomial, and their complement graphs also have the same characteristic polynomial. We say that $G$ is _determined by its generalized spectrum (DGS)_ if all generalized cospectral graphs $H$ are in-fact isomorphic to $G$. 
 
 This notion dates back to Johnson and Newman ([1980](https://doi.org/10.1016/0095-8956(80)90058-1)) who arrived at it from a different direction. Their paper started from the perspective that the choice to take entries $0$ and $1$ in the usual adjacency matrix was somewhat arbitrary, and investigated what happens if one uses formal symbols $x$ and $y$ instead. They proved that the $xy$-adjacency matrices $A^{x,y}_G$ and $A_H^{x,y}$ have the same spectrum for every choice of $x,y\in  \mathbb{R}$ if and only if the graphs are generalized cospectral! 
 
 Johnson and Newman also proved different equivalent formulations. One of these is relevant for our story. Let $e= (1,\ldots,1)^T$ be the all-ones vector, with the dimension matching the number of vertices $n$ in $G$.
 
-**Theorem 2. (Johnson and Newman, 1980)** _Two graphs $G$ and $H$ have the same generalized spectrum if and only if there exists an orthogonal matrix $Q\in \mathbb{R}^{n\times n}$ satisfying  $Q e = e$ that relates their adjacency matrices by conjugacy $Q A_G Q^T = A_H$._ 
+**Theorem 2. (Johnson and Newman, 1980)** _Two graphs_ $G$ and $H$ _have the same generalized spectrum if and only if there exists an orthogonal matrix_ $Q\in \mathbb{R}^{n\times n}$ _satisfying_  $Q e = e$ _that relates their adjacency matrices by conjugacy_ $Q A_G Q^T = A_H$._ 
 
 It is not difficult to check that the existence of such an orthogonal matrix implies generalized cospectrality.  The opposite direction requires an argument, omitted here for brevity. 
 
