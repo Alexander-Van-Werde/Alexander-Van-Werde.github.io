@@ -4,7 +4,7 @@ title: "Initial impressions - Previous work"
 date: 2026-10-20 16:59:00 +0200
 tags:
   - Initial-Impressions
-author: alexander 
+author: alexander
 ---
 
 **Author:** {{ site.data.authors[page.author].name }}
@@ -403,7 +403,7 @@ $$
 \ell\leq\prod_{i:e_i\geq 2}p_i^{e_i}.
 $$
 
-If one could establish that $$\det(W)$$ was square-free with nontrivial probability, then the same methods would likely be able to show that the prime factorization $$|\det(W)|=\prod_i p_i^{e_i}$$ has only a few exponents $$e_i\geq 2$$ and that these are all for small primes.
+If one could establish that $$\det(W)$$ was square-free with nontrivial probability, then the same methods would likely be able to show that the prime factorization $$\det(W)=\pm\prod_i p_i^{e_i}$$ has only a few exponents $$e_i\geq 2$$ and that these are all for small primes.
 
 Thus, the following conjecture should not be more difficult than the preceding ones:
 
