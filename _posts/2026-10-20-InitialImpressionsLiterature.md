@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Initial impressions - Previous work"
-date: 2026-10-20 11:40:00 +0200
+date: 2026-10-20 12:05:00 +0200
 tags:
   - Initial-Impressions
 author: alexander
@@ -56,8 +56,7 @@ While Theorem 4 also allows simple graphs, it is vacuous then. It can be shown t
 
 **Example 5.** A graph with loops and associated matrices is displayed below. Note that the $ij$-th entry of the walk matrix counts walks of length $j-1$ starting at vertex $i$, explaining the terminology. It here holds that $\det(W) = -3$. Thus, the graph is characterized by its generalized spectrum due to Theorem 4.  (Figure courtesy of [arXiv:2511.19625](https://arxiv.org/abs/2511.19625))
 
-![[Pasted image 20261016113158.png]]
- 
+![](/assets/images/ExampleLoopyGraphAdjacencyWalk.png){: style="width: 100%; max-width: 800px;" .align-center}
 
    
 
