@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Initial impressions - Introduction"
+title: "Initial impressions - Introduction (Alexander Van Werde)"
 date: 2026-10-20 11:40:00 +0200
 tags:
   - Initial-Impressions
