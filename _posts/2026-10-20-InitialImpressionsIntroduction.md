@@ -1,11 +1,12 @@
 ---
 layout: single
-title: "Initial impressions - Introduction (Alexander Van Werde)"
+title: "Initial impressions - Introduction"
 date: 2026-10-20 11:40:00 +0200
 tags:
   - Initial-Impressions
 author: alexander
 ---
+**Author:** {{ site.data.authors[page.author].name }}
 
 I'll start the working group blog with a series of three posts that discuss my initial impressions related to the LLM-generated preprint [''Almost all graphs are determined by their generalized spectrum''](https://arxiv.org/abs/2610.11047). 
 
