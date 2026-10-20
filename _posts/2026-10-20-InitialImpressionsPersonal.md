@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Initial impressions - Personal experiences (Alexander Van Werde)"
+title: "Initial impressions - Personal experiences"
 date: 2026-10-20 11:42:00 +0200
 tags:
   - Initial-Impressions
-author: "Alexander Van Werde"
+author: alexander
 ---
 
 I first heard about the question whether spectral information determines almost all graphs in a talk by Aida Abiad in 2022. She mentioned this as one of the notable open problems in spectral graph theory. The problem indeed has a rich history in the Netherlands, where I was a PhD student at the time, with notable contributions coming from Dutch mathematicians like Brouwer, Seidel, Van Dam, Haemers, and ofcourse Aida Abiad herself.  
