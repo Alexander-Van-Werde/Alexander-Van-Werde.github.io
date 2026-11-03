@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Graphs as objects associated to spectrum"
-date: 2026-11-03 18:18:00 +0000
+date: 2026-11-03 00:00:00 +0000
 author: ziqing
 ---
 
