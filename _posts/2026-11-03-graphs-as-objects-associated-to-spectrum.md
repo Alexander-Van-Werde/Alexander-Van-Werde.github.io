@@ -4,6 +4,7 @@ title: "Graphs as objects associated to spectrum"
 date: 2026-11-03 00:00:00 +0000
 author: ziqing
 ---
+Author: {{ site.data.authors[page.author].name }}
 
 Most existing literature treats graph spectrum as something obtained from graphs. The goal of this post is to convince you that the converse viewpoint is valid, in other words, graphs can be identified with many different objects associated to spectrum.
 
